@@ -1,5 +1,7 @@
 cmake_minimum_required (VERSION 3.20)
 
+set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
+
 project ("Libraries-Dynamic-CMake")
 
 add_library(ByeUser_CMake_LIB SHARED "ByeUser_Dynamic_CMake.h" "ByeUser_Dynamic_CMake.cpp")
